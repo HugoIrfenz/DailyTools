@@ -1,41 +1,62 @@
-# DailyTools
+![A realistic cat and fish playing mahjong beneath the title Hugo's Daily Tools](assets/dailytools-thumbnail.jpg)
 
-Small, useful tools by Hugo Syarof — one practical idea at a time.
+# Hugo's Daily Tools
 
-A collection of focused utilities for everyday work: developer helpers, text and data converters, file utilities, and other small tools that solve concrete problems.
+**Small tools. Real problems. A slightly questionable mahjong team.**
 
-## Tool catalog
+A growing collection of practical utilities by [Hugo Syarof](https://github.com/HugoIrfenz). Developer helpers, text and data converters, and file utilities — each focused on doing one useful thing well.
 
-No tools have been published yet. Each new tool will be listed here with its purpose and usage instructions.
+## Browse the tools
 
-| Tool | Purpose | Usage |
-| --- | --- | --- |
-| Coming soon | The first utility is on its way | — |
+The collection is being initialized. The first utility will be added after it has been implemented and checked.
 
-## Repository layout
+Future entries will link directly to each tool's documentation, including what it does and how to run it.
 
-```text
-tools/
-  <tool-name>/
-    README.md
-    ...source files
+## Getting started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/HugoIrfenz/DailyTools.git
+cd DailyTools
 ```
 
-Each tool lives in its own directory and documents prerequisites, how to run it, examples, and limitations. Shared infrastructure will be added when useful.
+Pick a tool from the catalog and follow its README. There is no global installation step: each utility documents its own runtime, dependencies, commands, examples, and limitations.
 
-## Development principles
+## Structure
 
-- Build useful tools instead of empty activity commits.
-- Keep setup simple and dependencies minimal.
-- Prefer local processing when practical.
-- Verify normal usage and relevant edge cases before publishing.
-- Preserve unrelated work and never commit credentials or personal data.
-- Update this catalog as tools are added.
+```text
+DailyTools/
+├── README.md
+├── assets/
+│   └── dailytools-thumbnail.jpg
+└── tools/                     # Added with the first utility
+    └── <tool-name>/
+        ├── README.md
+        └── ...source files
+```
 
-## Running a tool
+## How this collection grows
 
-Open the tool's directory and follow its README. Requirements vary by tool; there is no repository-wide installation step yet.
+New utilities are selected and built through a daily automation scheduled for **12:00 WIB (Asia/Jakarta)**. Each run is tasked with inspecting the existing collection, choosing a useful idea, checking its behavior, and publishing the code together with documentation. Failed runs are reported rather than treated as successful releases.
 
-## Author
+## Quality bar
 
-[Hugo Syarof](https://github.com/HugoIrfenz)
+- **Useful:** solve a concrete problem; no empty activity commits.
+- **Simple:** keep setup understandable and dependencies minimal.
+- **Verified:** check normal usage and relevant edge cases before release.
+- **Documented:** include copyable commands, examples, and honest limitations.
+- **Local when practical:** explain any network access or external service requirements.
+- **Careful with files:** document side effects and preserve unrelated work.
+
+## Ideas and contributions
+
+Open an [issue](https://github.com/HugoIrfenz/DailyTools/issues) with the problem you want to solve, an example input, and the desired output. Improvements to existing tools are welcome through pull requests.
+
+## Cover
+
+The AI-generated cover features a realistic cat and fish playing mahjong. Created for this repository; the artwork is stored in [assets/dailytools-thumbnail.jpg](assets/dailytools-thumbnail.jpg).
+
+---
+
+Built by **Hugo Syarof**, with Angela helping turn little ideas into working tools.

@@ -8,9 +8,9 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 ## Browse the tools
 
-The collection is being initialized. The first utility will be added after it has been implemented and checked.
-
-Future entries will link directly to each tool's documentation, including what it does and how to run it.
+| Tool | What it does | Runtime |
+| --- | --- | --- |
+| [JSON Diff](tools/json-diff/README.md) | Compare API responses or JSON files with precise field-level changes | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -30,8 +30,8 @@ DailyTools/
 ├── README.md
 ├── assets/
 │   └── dailytools-thumbnail.jpg
-└── tools/                     # Added with the first utility
-    └── <tool-name>/
+└── tools/
+    └── json-diff/
         ├── README.md
         └── ...source files
 ```

@@ -1,0 +1,8 @@
+{
+  "request_id": "demo-002",
+  "user": {
+    "id": 42,
+    "active": true,
+    "roles": ["member", "editor"]
+  }
+}

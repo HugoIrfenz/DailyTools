@@ -1,0 +1,7 @@
+{
+  "user": {
+    "id": 42,
+    "active": false,
+    "roles": ["member", "viewer"]
+  }
+}

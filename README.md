@@ -12,6 +12,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | --- | --- | --- |
 | [JSON Diff](tools/json-diff/README.md) | Compare API responses or JSON files with precise field-level changes | Python 3.9+, no dependencies |
 | [Env Audit](tools/env-audit/README.md) | Check dotenv files for missing, undocumented, duplicate, empty, or malformed keys without exposing values | Python 3.9+, no dependencies |
+| [Duplicate Finder](tools/duplicate-finder/README.md) | Find byte-identical files safely and estimate reclaimable space without deleting anything | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -32,6 +33,9 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── duplicate-finder/
+    │   ├── README.md
+    │   └── ...source files
     ├── env-audit/
     │   ├── README.md
     │   └── ...source files
@@ -64,4 +68,3 @@ The AI-generated cover features a realistic cat and fish playing mahjong. Create
 ---
 
 Built by **Hugo Syarof**, with Angela helping turn little ideas into working tools.
-

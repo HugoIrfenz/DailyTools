@@ -13,6 +13,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [JSON Diff](tools/json-diff/README.md) | Compare API responses or JSON files with precise field-level changes | Python 3.9+, no dependencies |
 | [Env Audit](tools/env-audit/README.md) | Check dotenv files for missing, undocumented, duplicate, empty, or malformed keys without exposing values | Python 3.9+, no dependencies |
 | [Duplicate Finder](tools/duplicate-finder/README.md) | Find byte-identical files safely and estimate reclaimable space without deleting anything | Python 3.9+, no dependencies |
+| [JSONL Check](tools/jsonl-check/README.md) | Validate JSON Lines with line-level errors, duplicate-key checks, and bounded error details | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -39,7 +40,10 @@ DailyTools/
     ├── env-audit/
     │   ├── README.md
     │   └── ...source files
-    └── json-diff/
+    ├── json-diff/
+    │   ├── README.md
+    │   └── ...source files
+    └── jsonl-check/
         ├── README.md
         └── ...source files
 ```

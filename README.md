@@ -16,6 +16,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [JSONL Check](tools/jsonl-check/README.md) | Validate JSON Lines with line-level errors, duplicate-key checks, and bounded error details | Python 3.9+, no dependencies |
 | [CSV Audit](tools/csv-audit/README.md) | Check CSV headers, quoting, encoding, and row widths without exposing field contents | Python 3.9+, no dependencies |
 | [Cron Next](tools/cron-next/README.md) | Validate five-field cron expressions and preview timezone-aware run times | Python 3.9+, no dependencies |
+| [Hash Manifest](tools/hash-manifest/README.md) | Create and verify deterministic SHA-256 inventories without following symlinks | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -46,6 +47,9 @@ DailyTools/
     │   ├── README.md
     │   └── ...source files
     ├── env-audit/
+    │   ├── README.md
+    │   └── ...source files
+    ├── hash-manifest/
     │   ├── README.md
     │   └── ...source files
     ├── json-diff/

@@ -17,6 +17,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [CSV Audit](tools/csv-audit/README.md) | Check CSV headers, quoting, encoding, and row widths without exposing field contents | Python 3.9+, no dependencies |
 | [Cron Next](tools/cron-next/README.md) | Validate five-field cron expressions and preview timezone-aware run times | Python 3.9+, no dependencies |
 | [Hash Manifest](tools/hash-manifest/README.md) | Create and verify deterministic SHA-256 inventories without following symlinks | Python 3.9+, no dependencies |
+| [Port Wait](tools/port-wait/README.md) | Wait for a TCP endpoint with retries, timeout, stability checks, and JSON output | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -55,7 +56,10 @@ DailyTools/
     ├── json-diff/
     │   ├── README.md
     │   └── ...source files
-    └── jsonl-check/
+    ├── jsonl-check/
+    │   ├── README.md
+    │   └── ...source files
+    └── port-wait/
         ├── README.md
         └── ...source files
 ```

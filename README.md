@@ -18,6 +18,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Cron Next](tools/cron-next/README.md) | Validate five-field cron expressions and preview timezone-aware run times | Python 3.9+, no dependencies |
 | [Hash Manifest](tools/hash-manifest/README.md) | Create and verify deterministic SHA-256 inventories without following symlinks | Python 3.9+, no dependencies |
 | [Port Wait](tools/port-wait/README.md) | Wait for a TCP endpoint with retries, timeout, stability checks, and JSON output | Python 3.9+, no dependencies |
+| [Line Unique](tools/line-unique/README.md) | Remove duplicate text lines while retaining first-seen order | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -57,6 +58,9 @@ DailyTools/
     │   ├── README.md
     │   └── ...source files
     ├── jsonl-check/
+    │   ├── README.md
+    │   └── ...source files
+    ├── line-unique/
     │   ├── README.md
     │   └── ...source files
     └── port-wait/

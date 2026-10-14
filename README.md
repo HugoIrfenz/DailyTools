@@ -21,6 +21,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Line Unique](tools/line-unique/README.md) | Remove duplicate text lines while retaining first-seen order | Python 3.9+, no dependencies |
 | [Subnet Inspect](tools/subnet-inspect/README.md) | Inspect IPv4/IPv6 CIDRs and check address membership | Python 3.9+, no dependencies |
 | [Query Decode](tools/query-decode/README.md) | Decode form query strings into ordered name/value pairs | Python 3.10+, no dependencies |
+| [EOL Inspect](tools/eol-inspect/README.md) | Count LF, CRLF and CR endings and check final newlines | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -41,6 +42,9 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── eol-inspect/
+    │   ├── README.md
+    │   └── ...source files
     ├── query-decode/
     │   ├── README.md
     │   └── ...source files

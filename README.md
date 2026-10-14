@@ -20,6 +20,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Port Wait](tools/port-wait/README.md) | Wait for a TCP endpoint with retries, timeout, stability checks, and JSON output | Python 3.9+, no dependencies |
 | [Line Unique](tools/line-unique/README.md) | Remove duplicate text lines while retaining first-seen order | Python 3.9+, no dependencies |
 | [Subnet Inspect](tools/subnet-inspect/README.md) | Inspect IPv4/IPv6 CIDRs and check address membership | Python 3.9+, no dependencies |
+| [Query Decode](tools/query-decode/README.md) | Decode form query strings into ordered name/value pairs | Python 3.10+, no dependencies |
 
 ## Getting started
 
@@ -40,6 +41,9 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── query-decode/
+    │   ├── README.md
+    │   └── ...source files
     ├── cron-next/
     │   ├── README.md
     │   └── ...source files

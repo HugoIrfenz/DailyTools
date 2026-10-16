@@ -25,6 +25,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Epoch Convert](tools/epoch-convert/README.md) | Convert Unix timestamps and offset-aware ISO datetimes | Python 3.9+, no dependencies |
 | [Path Collisions](tools/path-collisions/README.md) | Find Unicode-normalized and case-insensitive path collisions | Python 3.9+, no dependencies |
 | [JSON Select](tools/json-select/README.md) | Extract JSON values using explicit keys and array indexes | Python 3.9+, no dependencies |
+| [Tree Usage](tools/tree-usage/README.md) | Summarize file counts and logical bytes by final extension | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -45,6 +46,9 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── tree-usage/
+    │   ├── README.md
+    │   └── ...source files
     ├── json-select/
     │   ├── README.md
     │   └── ...source files

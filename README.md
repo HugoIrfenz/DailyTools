@@ -28,6 +28,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Tree Usage](tools/tree-usage/README.md) | Summarize file counts and logical bytes by final extension | Python 3.9+, no dependencies |
 | [File Compare](tools/file-compare/README.md) | Compare files and report the first differing byte offset | Python 3.9+, no dependencies |
 | [Duration Sum](tools/duration-sum/README.md) | Add signed durations with integer microsecond precision | Python 3.9+, no dependencies |
+| [Base64 Codec](tools/base64-codec/README.md) | Encode bytes or validate and decode padded Base64 | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -48,6 +49,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── base64-codec/
+    │   ├── README.md
+    │   ├── base64_codec.py
+    │   └── test_base64_codec.py
     ├── duration-sum/
     │   ├── README.md
     │   ├── duration_sum.py

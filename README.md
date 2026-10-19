@@ -31,6 +31,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Base64 Codec](tools/base64-codec/README.md) | Encode bytes or validate and decode padded Base64 | Python 3.9+, no dependencies |
 | [ZIP Inventory](tools/zip-inventory/README.md) | Summarize ZIP entry sizes, duplicate names and largest files without extraction | Python 3.9+, no dependencies |
 | [Retry Command](tools/retry-command/README.md) | Retry local commands after nonzero exits or per-attempt timeouts | Python 3.9+, no dependencies |
+| [Text Transcode](tools/text-transcode/README.md) | Convert explicit text encodings with strict errors and binary stdout | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -51,6 +52,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── text-transcode/
+    │   ├── README.md
+    │   ├── text_transcode.py
+    │   └── test_text_transcode.py
     ├── retry-command/
     │   ├── README.md
     │   ├── retry_command.py

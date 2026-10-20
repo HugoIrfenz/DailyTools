@@ -33,6 +33,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Retry Command](tools/retry-command/README.md) | Retry local commands after nonzero exits or per-attempt timeouts | Python 3.9+, no dependencies |
 | [Text Transcode](tools/text-transcode/README.md) | Convert explicit text encodings with strict errors and binary stdout | Python 3.9+, no dependencies |
 | [Byte Size](tools/byte-size/README.md) | Parse exact byte quantities and display decimal and binary sizes | Python 3.9+, no dependencies |
+| [List Compare](tools/list-compare/README.md) | Compare UTF-8 line-list membership in first-seen order | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -53,6 +54,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── list-compare/
+    │   ├── README.md
+    │   ├── list_compare.py
+    │   └── test_list_compare.py
     ├── byte-size/
     │   ├── README.md
     │   ├── byte_size.py

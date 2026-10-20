@@ -32,6 +32,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [ZIP Inventory](tools/zip-inventory/README.md) | Summarize ZIP entry sizes, duplicate names and largest files without extraction | Python 3.9+, no dependencies |
 | [Retry Command](tools/retry-command/README.md) | Retry local commands after nonzero exits or per-attempt timeouts | Python 3.9+, no dependencies |
 | [Text Transcode](tools/text-transcode/README.md) | Convert explicit text encodings with strict errors and binary stdout | Python 3.9+, no dependencies |
+| [Byte Size](tools/byte-size/README.md) | Parse exact byte quantities and display decimal and binary sizes | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -52,6 +53,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── byte-size/
+    │   ├── README.md
+    │   ├── byte_size.py
+    │   └── test_byte_size.py
     ├── text-transcode/
     │   ├── README.md
     │   ├── text_transcode.py

@@ -34,6 +34,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Text Transcode](tools/text-transcode/README.md) | Convert explicit text encodings with strict errors and binary stdout | Python 3.9+, no dependencies |
 | [Byte Size](tools/byte-size/README.md) | Parse exact byte quantities and display decimal and binary sizes | Python 3.9+, no dependencies |
 | [List Compare](tools/list-compare/README.md) | Compare UTF-8 line-list membership in first-seen order | Python 3.9+, no dependencies |
+| [Unicode Inspect](tools/unicode-inspect/README.md) | Locate selected Unicode control, format and separator characters | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -54,6 +55,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── unicode-inspect/
+    │   ├── README.md
+    │   ├── unicode_inspect.py
+    │   └── test_unicode_inspect.py
     ├── list-compare/
     │   ├── README.md
     │   ├── list_compare.py

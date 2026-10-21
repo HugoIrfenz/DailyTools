@@ -35,6 +35,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Byte Size](tools/byte-size/README.md) | Parse exact byte quantities and display decimal and binary sizes | Python 3.9+, no dependencies |
 | [List Compare](tools/list-compare/README.md) | Compare UTF-8 line-list membership in first-seen order | Python 3.9+, no dependencies |
 | [Unicode Inspect](tools/unicode-inspect/README.md) | Locate selected Unicode control, format and separator characters | Python 3.9+, no dependencies |
+| [JWT Inspect](tools/jwt-inspect/README.md) | Decode compact token JSON without verifying its signature | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -55,6 +56,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── jwt-inspect/
+    │   ├── README.md
+    │   ├── jwt_inspect.py
+    │   └── test_jwt_inspect.py
     ├── unicode-inspect/
     │   ├── README.md
     │   ├── unicode_inspect.py

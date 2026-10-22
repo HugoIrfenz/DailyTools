@@ -37,6 +37,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [List Compare](tools/list-compare/README.md) | Compare UTF-8 line-list membership in first-seen order | Python 3.9+, no dependencies |
 | [Unicode Inspect](tools/unicode-inspect/README.md) | Locate selected Unicode control, format and separator characters | Python 3.9+, no dependencies |
 | [JWT Inspect](tools/jwt-inspect/README.md) | Decode compact token JSON without verifying its signature | Python 3.9+, no dependencies |
+| [UUID Inspect](tools/uuid-inspect/README.md) | Normalize UUID text and report its encoded version, variant, and forms | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -57,6 +58,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── uuid-inspect/
+    │   ├── README.md
+    │   ├── uuid_inspect.py
+    │   └── test_uuid_inspect.py
     ├── csv-select/
     │   ├── README.md
     │   ├── csv_select.py

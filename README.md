@@ -15,6 +15,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Duplicate Finder](tools/duplicate-finder/README.md) | Find byte-identical files safely and estimate reclaimable space without deleting anything | Python 3.9+, no dependencies |
 | [JSONL Check](tools/jsonl-check/README.md) | Validate JSON Lines with line-level errors, duplicate-key checks, and bounded error details | Python 3.9+, no dependencies |
 | [CSV Audit](tools/csv-audit/README.md) | Check CSV headers, quoting, encoding, and row widths without exposing field contents | Python 3.9+, no dependencies |
+| [CSV Select](tools/csv-select/README.md) | Select and reorder CSV columns with header and row-width validation | Python 3.9+, no dependencies |
 | [Cron Next](tools/cron-next/README.md) | Validate five-field cron expressions and preview timezone-aware run times | Python 3.9+, no dependencies |
 | [Hash Manifest](tools/hash-manifest/README.md) | Create and verify deterministic SHA-256 inventories without following symlinks | Python 3.9+, no dependencies |
 | [Port Wait](tools/port-wait/README.md) | Wait for a TCP endpoint with retries, timeout, stability checks, and JSON output | Python 3.9+, no dependencies |
@@ -56,6 +57,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── csv-select/
+    │   ├── README.md
+    │   ├── csv_select.py
+    │   └── test_csv_select.py
     ├── jwt-inspect/
     │   ├── README.md
     │   ├── jwt_inspect.py

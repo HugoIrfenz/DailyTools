@@ -39,6 +39,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Unicode Inspect](tools/unicode-inspect/README.md) | Locate selected Unicode control, format and separator characters | Python 3.9+, no dependencies |
 | [JWT Inspect](tools/jwt-inspect/README.md) | Decode compact token JSON without verifying its signature | Python 3.9+, no dependencies |
 | [UUID Inspect](tools/uuid-inspect/README.md) | Normalize UUID text and report its encoded version, variant, and forms | Python 3.9+, no dependencies |
+| [SemVer Compare](tools/semver-compare/README.md) | Compare Semantic Versions with prerelease precedence and ignored build metadata | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -59,6 +60,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── semver-compare/
+    │   ├── README.md
+    │   ├── semver_compare.py
+    │   └── test_semver_compare.py
     ├── json-merge-patch/
     │   ├── README.md
     │   ├── json_merge_patch.py

@@ -11,6 +11,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | Tool | What it does | Runtime |
 | --- | --- | --- |
 | [JSON Diff](tools/json-diff/README.md) | Compare API responses or JSON files with precise field-level changes | Python 3.9+, no dependencies |
+| [JSON Merge Patch](tools/json-merge-patch/README.md) | Apply object updates, removals, and replacements from a merge-patch document | Python 3.9+, no dependencies |
 | [Env Audit](tools/env-audit/README.md) | Check dotenv files for missing, undocumented, duplicate, empty, or malformed keys without exposing values | Python 3.9+, no dependencies |
 | [Duplicate Finder](tools/duplicate-finder/README.md) | Find byte-identical files safely and estimate reclaimable space without deleting anything | Python 3.9+, no dependencies |
 | [JSONL Check](tools/jsonl-check/README.md) | Validate JSON Lines with line-level errors, duplicate-key checks, and bounded error details | Python 3.9+, no dependencies |
@@ -58,6 +59,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── json-merge-patch/
+    │   ├── README.md
+    │   ├── json_merge_patch.py
+    │   └── test_json_merge_patch.py
     ├── uuid-inspect/
     │   ├── README.md
     │   ├── uuid_inspect.py

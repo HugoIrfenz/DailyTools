@@ -40,6 +40,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [JWT Inspect](tools/jwt-inspect/README.md) | Decode compact token JSON without verifying its signature | Python 3.9+, no dependencies |
 | [UUID Inspect](tools/uuid-inspect/README.md) | Normalize UUID text and report its encoded version, variant, and forms | Python 3.9+, no dependencies |
 | [SemVer Compare](tools/semver-compare/README.md) | Compare Semantic Versions with prerelease precedence and ignored build metadata | Python 3.9+, no dependencies |
+| [PEM Inspect](tools/pem-inspect/README.md) | Inventory strict base64 PEM blocks by label, size, digest, and duplicate payload | Python 3.9+, no dependencies |
 
 ## Getting started
 
@@ -60,6 +61,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── pem-inspect/
+    │   ├── README.md
+    │   ├── pem_inspect.py
+    │   └── test_pem_inspect.py
     ├── semver-compare/
     │   ├── README.md
     │   ├── semver_compare.py

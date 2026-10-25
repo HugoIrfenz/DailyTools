@@ -18,6 +18,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [JSONL Check](tools/jsonl-check/README.md) | Validate JSON Lines with line-level errors, duplicate-key checks, and bounded error details | Python 3.9+, no dependencies |
 | [CSV Audit](tools/csv-audit/README.md) | Check CSV headers, quoting, encoding, and row widths without exposing field contents | Python 3.9+, no dependencies |
 | [CSV Select](tools/csv-select/README.md) | Select and reorder CSV columns with header and row-width validation | Python 3.9+, no dependencies |
+| [CSV to JSONL](tools/csv-to-jsonl/README.md) | Convert header-based CSV rows into JSON objects while retaining string values | Python 3.9+, no dependencies |
 | [Cron Next](tools/cron-next/README.md) | Validate five-field cron expressions and preview timezone-aware run times | Python 3.9+, no dependencies |
 | [Hash Manifest](tools/hash-manifest/README.md) | Create and verify deterministic SHA-256 inventories without following symlinks | Python 3.9+, no dependencies |
 | [Port Wait](tools/port-wait/README.md) | Wait for a TCP endpoint with retries, timeout, stability checks, and JSON output | Python 3.9+, no dependencies |
@@ -62,6 +63,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── csv-to-jsonl/
+    │   ├── README.md
+    │   ├── csv_to_jsonl.py
+    │   └── test_csv_to_jsonl.py
     ├── json-flatten/
     │   ├── README.md
     │   ├── json_flatten.py

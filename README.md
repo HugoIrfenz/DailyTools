@@ -35,6 +35,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Duration Sum](tools/duration-sum/README.md) | Add signed durations with integer microsecond precision | Python 3.9+, no dependencies |
 | [Base64 Codec](tools/base64-codec/README.md) | Encode bytes or validate and decode padded Base64 | Python 3.9+, no dependencies |
 | [ZIP Inventory](tools/zip-inventory/README.md) | Summarize ZIP entry sizes, duplicate names and largest files without extraction | Python 3.9+, no dependencies |
+| [Gzip Check](tools/gzip-check/README.md) | Validate gzip data and report sizes plus the uncompressed SHA-256 digest | Python 3.9+, no dependencies |
 | [Retry Command](tools/retry-command/README.md) | Retry local commands after nonzero exits or per-attempt timeouts | Python 3.9+, no dependencies |
 | [Text Transcode](tools/text-transcode/README.md) | Convert explicit text encodings with strict errors and binary stdout | Python 3.9+, no dependencies |
 | [Byte Size](tools/byte-size/README.md) | Parse exact byte quantities and display decimal and binary sizes | Python 3.9+, no dependencies |
@@ -65,6 +66,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── gzip-check/
+    │   ├── README.md
+    │   ├── gzip_check.py
+    │   └── test_gzip_check.py
     ├── json-stats/
     │   ├── README.md
     │   ├── json_stats.py

@@ -24,6 +24,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Hash Manifest](tools/hash-manifest/README.md) | Create and verify deterministic SHA-256 inventories without following symlinks | Python 3.9+, no dependencies |
 | [Port Wait](tools/port-wait/README.md) | Wait for a TCP endpoint with retries, timeout, stability checks, and JSON output | Python 3.9+, no dependencies |
 | [Line Unique](tools/line-unique/README.md) | Remove duplicate text lines while retaining first-seen order | Python 3.9+, no dependencies |
+| [Line Sample](tools/line-sample/README.md) | Select deterministic reservoir samples while preserving line bytes and source order | Python 3.9+, no dependencies |
 | [Subnet Inspect](tools/subnet-inspect/README.md) | Inspect IPv4/IPv6 CIDRs and check address membership | Python 3.9+, no dependencies |
 | [Query Decode](tools/query-decode/README.md) | Decode form query strings into ordered name/value pairs | Python 3.10+, no dependencies |
 | [EOL Inspect](tools/eol-inspect/README.md) | Count LF, CRLF and CR endings and check final newlines | Python 3.9+, no dependencies |
@@ -66,6 +67,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── line-sample/
+    │   ├── README.md
+    │   ├── line_sample.py
+    │   └── test_line_sample.py
     ├── gzip-check/
     │   ├── README.md
     │   ├── gzip_check.py

@@ -42,6 +42,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Byte Size](tools/byte-size/README.md) | Parse exact byte quantities and display decimal and binary sizes | Python 3.9+, no dependencies |
 | [List Compare](tools/list-compare/README.md) | Compare UTF-8 line-list membership in first-seen order | Python 3.9+, no dependencies |
 | [Unicode Inspect](tools/unicode-inspect/README.md) | Locate selected Unicode control, format and separator characters | Python 3.9+, no dependencies |
+| [Unicode Normalize](tools/unicode-normalize/README.md) | Normalize UTF-8 text as NFC, NFD, NFKC, or NFKD, or check whether changes are needed | Python 3.9+, no dependencies |
 | [JWT Inspect](tools/jwt-inspect/README.md) | Decode compact token JSON without verifying its signature | Python 3.9+, no dependencies |
 | [UUID Inspect](tools/uuid-inspect/README.md) | Normalize UUID text and report its encoded version, variant, and forms | Python 3.9+, no dependencies |
 | [SemVer Compare](tools/semver-compare/README.md) | Compare Semantic Versions with prerelease precedence and ignored build metadata | Python 3.9+, no dependencies |
@@ -67,6 +68,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── unicode-normalize/
+    │   ├── README.md
+    │   ├── unicode_normalize.py
+    │   └── test_unicode_normalize.py
     ├── line-sample/
     │   ├── README.md
     │   ├── line_sample.py

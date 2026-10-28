@@ -33,6 +33,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [JSON Select](tools/json-select/README.md) | Extract JSON values using explicit keys and array indexes | Python 3.9+, no dependencies |
 | [Tree Usage](tools/tree-usage/README.md) | Summarize file counts and logical bytes by final extension | Python 3.9+, no dependencies |
 | [File Compare](tools/file-compare/README.md) | Compare files and report the first differing byte offset | Python 3.9+, no dependencies |
+| [Hex View](tools/hex-view/README.md) | Display binary input as byte offsets, hexadecimal values, and printable ASCII | Python 3.9+, no dependencies |
 | [Duration Sum](tools/duration-sum/README.md) | Add signed durations with integer microsecond precision | Python 3.9+, no dependencies |
 | [Base64 Codec](tools/base64-codec/README.md) | Encode bytes or validate and decode padded Base64 | Python 3.9+, no dependencies |
 | [ZIP Inventory](tools/zip-inventory/README.md) | Summarize ZIP entry sizes, duplicate names and largest files without extraction | Python 3.9+, no dependencies |
@@ -68,6 +69,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── hex-view/
+    │   ├── README.md
+    │   ├── hex_view.py
+    │   └── test_hex_view.py
     ├── unicode-normalize/
     │   ├── README.md
     │   ├── unicode_normalize.py

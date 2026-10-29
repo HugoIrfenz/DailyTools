@@ -12,6 +12,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | --- | --- | --- |
 | [JSON Diff](tools/json-diff/README.md) | Compare API responses or JSON files with precise field-level changes | Python 3.9+, no dependencies |
 | [JSON Merge Patch](tools/json-merge-patch/README.md) | Apply object updates, removals, and replacements from a merge-patch document | Python 3.9+, no dependencies |
+| [JSON Redact](tools/json-redact/README.md) | Replace explicitly selected JSON Pointer values with a fixed string | Python 3.9+, no dependencies |
 | [JSON Flatten](tools/json-flatten/README.md) | Convert nested JSON leaves into JSON Pointer and value records | Python 3.9+, no dependencies |
 | [JSON Stats](tools/json-stats/README.md) | Count JSON structure, depth, members, items, and value types without printing values | Python 3.9+, no dependencies |
 | [Env Audit](tools/env-audit/README.md) | Check dotenv files for missing, undocumented, duplicate, empty, or malformed keys without exposing values | Python 3.9+, no dependencies |
@@ -72,6 +73,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── json-redact/
+    │   ├── README.md
+    │   ├── json_redact.py
+    │   └── test_json_redact.py
     ├── csv-join/
     │   ├── README.md
     │   ├── csv_join.py

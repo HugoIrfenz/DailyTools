@@ -22,6 +22,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [CSV to JSONL](tools/csv-to-jsonl/README.md) | Convert header-based CSV rows into JSON objects while retaining string values | Python 3.9+, no dependencies |
 | [Cron Next](tools/cron-next/README.md) | Validate five-field cron expressions and preview timezone-aware run times | Python 3.9+, no dependencies |
 | [Hash Manifest](tools/hash-manifest/README.md) | Create and verify deterministic SHA-256 inventories without following symlinks | Python 3.9+, no dependencies |
+| [Markdown Link Check](tools/markdown-link-check/README.md) | Check whether relative file targets in common Markdown link forms exist | Python 3.9+, no dependencies |
 | [Port Wait](tools/port-wait/README.md) | Wait for a TCP endpoint with retries, timeout, stability checks, and JSON output | Python 3.9+, no dependencies |
 | [Line Unique](tools/line-unique/README.md) | Remove duplicate text lines while retaining first-seen order | Python 3.9+, no dependencies |
 | [Line Sample](tools/line-sample/README.md) | Select deterministic reservoir samples while preserving line bytes and source order | Python 3.9+, no dependencies |
@@ -70,6 +71,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── markdown-link-check/
+    │   ├── README.md
+    │   ├── markdown_link_check.py
+    │   └── test_markdown_link_check.py
     ├── tar-inventory/
     │   ├── README.md
     │   ├── tar_inventory.py

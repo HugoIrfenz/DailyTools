@@ -23,6 +23,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [CSV Join](tools/csv-join/README.md) | Join two CSV files by named key columns with inner, left, or full semantics | Python 3.9+, no dependencies |
 | [SQLite Inspect](tools/sqlite-inspect/README.md) | Inventory SQLite tables, views, columns, indexes, foreign keys, and triggers read-only | Python 3.9+, no dependencies |
 | [CSV to JSONL](tools/csv-to-jsonl/README.md) | Convert header-based CSV rows into JSON objects while retaining string values | Python 3.9+, no dependencies |
+| [JSON to CSV](tools/json-to-csv/README.md) | Convert arrays of flat JSON objects into CSV with inferred or selected columns | Python 3.9+, no dependencies |
 | [Cron Next](tools/cron-next/README.md) | Validate five-field cron expressions and preview timezone-aware run times | Python 3.9+, no dependencies |
 | [Hash Manifest](tools/hash-manifest/README.md) | Create and verify deterministic SHA-256 inventories without following symlinks | Python 3.9+, no dependencies |
 | [Markdown Link Check](tools/markdown-link-check/README.md) | Check whether relative file targets in common Markdown link forms exist | Python 3.9+, no dependencies |
@@ -74,6 +75,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── json-to-csv/
+    │   ├── README.md
+    │   ├── json_to_csv.py
+    │   └── test_json_to_csv.py
     ├── sqlite-inspect/
     │   ├── README.md
     │   ├── sqlite_inspect.py

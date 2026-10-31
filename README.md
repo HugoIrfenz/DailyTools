@@ -15,6 +15,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [JSON Redact](tools/json-redact/README.md) | Replace explicitly selected JSON Pointer values with a fixed string | Python 3.9+, no dependencies |
 | [JSON Flatten](tools/json-flatten/README.md) | Convert nested JSON leaves into JSON Pointer and value records | Python 3.9+, no dependencies |
 | [JSON Stats](tools/json-stats/README.md) | Count JSON structure, depth, members, items, and value types without printing values | Python 3.9+, no dependencies |
+| [XML Stats](tools/xml-stats/README.md) | Count XML structure, depth, namespaces, tags, attributes, and text characters without printing values | Python 3.9+, no dependencies |
 | [Env Audit](tools/env-audit/README.md) | Check dotenv files for missing, undocumented, duplicate, empty, or malformed keys without exposing values | Python 3.9+, no dependencies |
 | [Duplicate Finder](tools/duplicate-finder/README.md) | Find byte-identical files safely and estimate reclaimable space without deleting anything | Python 3.9+, no dependencies |
 | [JSONL Check](tools/jsonl-check/README.md) | Validate JSON Lines with line-level errors, duplicate-key checks, and bounded error details | Python 3.9+, no dependencies |
@@ -75,6 +76,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── xml-stats/
+    │   ├── README.md
+    │   ├── xml_stats.py
+    │   └── test_xml_stats.py
     ├── json-to-csv/
     │   ├── README.md
     │   ├── json_to_csv.py

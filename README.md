@@ -15,6 +15,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [JSON Redact](tools/json-redact/README.md) | Replace explicitly selected JSON Pointer values with a fixed string | Python 3.9+, no dependencies |
 | [JSON Flatten](tools/json-flatten/README.md) | Convert nested JSON leaves into JSON Pointer and value records | Python 3.9+, no dependencies |
 | [JSON Stats](tools/json-stats/README.md) | Count JSON structure, depth, members, items, and value types without printing values | Python 3.9+, no dependencies |
+| [JSON Canonicalize](tools/json-canonicalize/README.md) | Sort JSON object keys recursively and emit compact or indented deterministic text | Python 3.9+, no dependencies |
 | [XML Stats](tools/xml-stats/README.md) | Count XML structure, depth, namespaces, tags, attributes, and text characters without printing values | Python 3.9+, no dependencies |
 | [Env Audit](tools/env-audit/README.md) | Check dotenv files for missing, undocumented, duplicate, empty, or malformed keys without exposing values | Python 3.9+, no dependencies |
 | [Duplicate Finder](tools/duplicate-finder/README.md) | Find byte-identical files safely and estimate reclaimable space without deleting anything | Python 3.9+, no dependencies |
@@ -76,6 +77,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── json-canonicalize/
+    │   ├── README.md
+    │   ├── json_canonicalize.py
+    │   └── test_json_canonicalize.py
     ├── xml-stats/
     │   ├── README.md
     │   ├── xml_stats.py

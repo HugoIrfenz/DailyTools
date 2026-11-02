@@ -18,6 +18,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [JSON Canonicalize](tools/json-canonicalize/README.md) | Sort JSON object keys recursively and emit compact or indented deterministic text | Python 3.9+, no dependencies |
 | [XML Stats](tools/xml-stats/README.md) | Count XML structure, depth, namespaces, tags, attributes, and text characters without printing values | Python 3.9+, no dependencies |
 | [Env Audit](tools/env-audit/README.md) | Check dotenv files for missing, undocumented, duplicate, empty, or malformed keys without exposing values | Python 3.9+, no dependencies |
+| [INI Inspect](tools/ini-inspect/README.md) | Inventory INI sections and explicit key names without printing values | Python 3.9+, no dependencies |
 | [Duplicate Finder](tools/duplicate-finder/README.md) | Find byte-identical files safely and estimate reclaimable space without deleting anything | Python 3.9+, no dependencies |
 | [JSONL Check](tools/jsonl-check/README.md) | Validate JSON Lines with line-level errors, duplicate-key checks, and bounded error details | Python 3.9+, no dependencies |
 | [CSV Audit](tools/csv-audit/README.md) | Check CSV headers, quoting, encoding, and row widths without exposing field contents | Python 3.9+, no dependencies |
@@ -79,6 +80,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── ini-inspect/
+    │   ├── README.md
+    │   ├── ini_inspect.py
+    │   └── test_ini_inspect.py
     ├── html-links/
     │   ├── README.md
     │   ├── html_links.py

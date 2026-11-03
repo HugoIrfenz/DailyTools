@@ -23,6 +23,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [JSONL Check](tools/jsonl-check/README.md) | Validate JSON Lines with line-level errors, duplicate-key checks, and bounded error details | Python 3.9+, no dependencies |
 | [CSV Audit](tools/csv-audit/README.md) | Check CSV headers, quoting, encoding, and row widths without exposing field contents | Python 3.9+, no dependencies |
 | [CSV Frequency](tools/csv-frequency/README.md) | Count and rank string values in selected CSV columns | Python 3.9+, no dependencies |
+| [CSV Sort](tools/csv-sort/README.md) | Sort CSV rows by named text or finite-decimal columns | Python 3.9+, no dependencies |
 | [CSV Select](tools/csv-select/README.md) | Select and reorder CSV columns with header and row-width validation | Python 3.9+, no dependencies |
 | [CSV Join](tools/csv-join/README.md) | Join two CSV files by named key columns with inner, left, or full semantics | Python 3.9+, no dependencies |
 | [SQLite Inspect](tools/sqlite-inspect/README.md) | Inventory SQLite tables, views, columns, indexes, foreign keys, and triggers read-only | Python 3.9+, no dependencies |
@@ -80,6 +81,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── csv-sort/
+    │   ├── README.md
+    │   ├── csv_sort.py
+    │   └── test_csv_sort.py
     ├── ini-inspect/
     │   ├── README.md
     │   ├── ini_inspect.py

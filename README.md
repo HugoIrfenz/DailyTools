@@ -22,6 +22,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [EML Inspect](tools/eml-inspect/README.md) | Inventory email header names, MIME parts, attachments, decoded sizes, and payload digests | Python 3.9+, no dependencies |
 | [Duplicate Finder](tools/duplicate-finder/README.md) | Find byte-identical files safely and estimate reclaimable space without deleting anything | Python 3.9+, no dependencies |
 | [JSONL Check](tools/jsonl-check/README.md) | Validate JSON Lines with line-level errors, duplicate-key checks, and bounded error details | Python 3.9+, no dependencies |
+| [JSONL to JSON](tools/jsonl-to-json/README.md) | Convert JSON Lines records into one JSON array with line-level validation | Python 3.9+, no dependencies |
 | [CSV Audit](tools/csv-audit/README.md) | Check CSV headers, quoting, encoding, and row widths without exposing field contents | Python 3.9+, no dependencies |
 | [CSV Frequency](tools/csv-frequency/README.md) | Count and rank string values in selected CSV columns | Python 3.9+, no dependencies |
 | [CSV Sort](tools/csv-sort/README.md) | Sort CSV rows by named text or finite-decimal columns | Python 3.9+, no dependencies |
@@ -82,6 +83,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── jsonl-to-json/
+    │   ├── README.md
+    │   ├── jsonl_to_json.py
+    │   └── test_jsonl_to_json.py
     ├── eml-inspect/
     │   ├── README.md
     │   ├── eml_inspect.py

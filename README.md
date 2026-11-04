@@ -19,6 +19,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [XML Stats](tools/xml-stats/README.md) | Count XML structure, depth, namespaces, tags, attributes, and text characters without printing values | Python 3.9+, no dependencies |
 | [Env Audit](tools/env-audit/README.md) | Check dotenv files for missing, undocumented, duplicate, empty, or malformed keys without exposing values | Python 3.9+, no dependencies |
 | [INI Inspect](tools/ini-inspect/README.md) | Inventory INI sections and explicit key names without printing values | Python 3.9+, no dependencies |
+| [TOML Inspect](tools/toml-inspect/README.md) | Inventory TOML table paths, key names, value types, and array lengths without printing values | Python 3.11+, no dependencies |
 | [EML Inspect](tools/eml-inspect/README.md) | Inventory email header names, MIME parts, attachments, decoded sizes, and payload digests | Python 3.9+, no dependencies |
 | [Duplicate Finder](tools/duplicate-finder/README.md) | Find byte-identical files safely and estimate reclaimable space without deleting anything | Python 3.9+, no dependencies |
 | [JSONL Check](tools/jsonl-check/README.md) | Validate JSON Lines with line-level errors, duplicate-key checks, and bounded error details | Python 3.9+, no dependencies |
@@ -84,6 +85,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── toml-inspect/
+    │   ├── README.md
+    │   ├── toml_inspect.py
+    │   └── test_toml_inspect.py
     ├── url-inspect/
     │   ├── README.md
     │   ├── url_inspect.py

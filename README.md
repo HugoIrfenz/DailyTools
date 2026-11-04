@@ -40,6 +40,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Line Sample](tools/line-sample/README.md) | Select deterministic reservoir samples while preserving line bytes and source order | Python 3.9+, no dependencies |
 | [Subnet Inspect](tools/subnet-inspect/README.md) | Inspect IPv4/IPv6 CIDRs and check address membership | Python 3.9+, no dependencies |
 | [Query Decode](tools/query-decode/README.md) | Decode form query strings into ordered name/value pairs | Python 3.10+, no dependencies |
+| [URL Inspect](tools/url-inspect/README.md) | Inspect URL structure, IDNA hosts, ports, and metadata without network access | Python 3.9+, no dependencies |
 | [EOL Inspect](tools/eol-inspect/README.md) | Count LF, CRLF and CR endings and check final newlines | Python 3.9+, no dependencies |
 | [Epoch Convert](tools/epoch-convert/README.md) | Convert Unix timestamps and offset-aware ISO datetimes | Python 3.9+, no dependencies |
 | [Path Collisions](tools/path-collisions/README.md) | Find Unicode-normalized and case-insensitive path collisions | Python 3.9+, no dependencies |
@@ -83,6 +84,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── url-inspect/
+    │   ├── README.md
+    │   ├── url_inspect.py
+    │   └── test_url_inspect.py
     ├── jsonl-to-json/
     │   ├── README.md
     │   ├── jsonl_to_json.py

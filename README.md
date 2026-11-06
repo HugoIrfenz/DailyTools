@@ -25,6 +25,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [JSONL Check](tools/jsonl-check/README.md) | Validate JSON Lines with line-level errors, duplicate-key checks, and bounded error details | Python 3.9+, no dependencies |
 | [JSONL to JSON](tools/jsonl-to-json/README.md) | Convert JSON Lines records into one JSON array with line-level validation | Python 3.9+, no dependencies |
 | [CSV Audit](tools/csv-audit/README.md) | Check CSV headers, quoting, encoding, and row widths without exposing field contents | Python 3.9+, no dependencies |
+| [CSV Diff](tools/csv-diff/README.md) | Compare CSV rows by key and report added, removed, and changed values | Python 3.9+, no dependencies |
 | [CSV Frequency](tools/csv-frequency/README.md) | Count and rank string values in selected CSV columns | Python 3.9+, no dependencies |
 | [CSV Sort](tools/csv-sort/README.md) | Sort CSV rows by named text or finite-decimal columns | Python 3.9+, no dependencies |
 | [CSV Select](tools/csv-select/README.md) | Select and reorder CSV columns with header and row-width validation | Python 3.9+, no dependencies |
@@ -86,6 +87,10 @@ DailyTools/
 ├── assets/
 │   └── dailytools-thumbnail.jpg
 └── tools/
+    ├── csv-diff/
+    │   ├── csv_diff.py
+    │   ├── test_csv_diff.py
+    │   └── README.md
     ├── markdown-toc/
     │   ├── markdown_toc.py
     │   ├── test_markdown_toc.py

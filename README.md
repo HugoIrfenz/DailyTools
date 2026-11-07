@@ -40,6 +40,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 | [Markdown Link Check](tools/markdown-link-check/README.md) | Check whether relative file targets in common Markdown link forms exist | Python 3.9+, no dependencies |
 | [Markdown TOC](tools/markdown-toc/README.md) | Generate a deterministic table of contents from selected ATX heading levels | Python 3.9+, no dependencies |
 | [Markdown Table](tools/markdown-table/README.md) | Align Markdown pipe tables while retaining column alignment markers | Python 3.9+, no dependencies |
+| [Nginx Log Stats](tools/nginx-log-stats/README.md) | Summarize Common/Combined access logs by methods, statuses, bytes, and paths | Python 3.9+, no dependencies |
 | [HTML Links](tools/html-links/README.md) | Extract and optionally resolve common link attributes from local HTML | Python 3.9+, no dependencies |
 | [Port Wait](tools/port-wait/README.md) | Wait for a TCP endpoint with retries, timeout, stability checks, and JSON output | Python 3.9+, no dependencies |
 | [Line Unique](tools/line-unique/README.md) | Remove duplicate text lines while retaining first-seen order | Python 3.9+, no dependencies |
@@ -106,6 +107,10 @@ DailyTools/
     │   ├── README.md
     │   ├── markdown_table.py
     │   └── test_markdown_table.py
+    ├── nginx-log-stats/
+    │   ├── README.md
+    │   ├── nginx_log_stats.py
+    │   └── test_nginx_log_stats.py
     ├── markdown-toc/
     │   ├── markdown_toc.py
     │   ├── test_markdown_toc.py

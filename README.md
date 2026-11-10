@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [JSON to JSONL](tools/json-to-jsonl/README.md) | Convert a JSON array into JSON Lines while retaining decimal values | Python 3.9+, no dependencies |
 | [JSON Diff](tools/json-diff/README.md) | Compare API responses or JSON files with precise field-level changes | Python 3.9+, no dependencies |
 | [JSON Merge Patch](tools/json-merge-patch/README.md) | Apply object updates, removals, and replacements from a merge-patch document | Python 3.9+, no dependencies |
 | [JSON Redact](tools/json-redact/README.md) | Replace explicitly selected JSON Pointer values with a fixed string | Python 3.9+, no dependencies |

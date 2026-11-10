@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [CIDR Collapse](tools/cidr-collapse/README.md) | Combine overlapping and adjacent IPv4 and IPv6 networks | Python 3.9+, no dependencies |
 | [CSV Transpose](tools/csv-transpose/README.md) | Swap rows and columns in a rectangular CSV | Python 3.9+, no dependencies |
 | [JSON to JSONL](tools/json-to-jsonl/README.md) | Convert a JSON array into JSON Lines while retaining decimal values | Python 3.9+, no dependencies |
 | [JSON Diff](tools/json-diff/README.md) | Compare API responses or JSON files with precise field-level changes | Python 3.9+, no dependencies |

@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [HTTP Headers Inspect](tools/http-headers-inspect/README.md) | Inventory raw HTTP header names, duplicate counts, and value lengths without printing values | Python 3.9+, no dependencies |
 | [CIDR Collapse](tools/cidr-collapse/README.md) | Combine overlapping and adjacent IPv4 and IPv6 networks | Python 3.9+, no dependencies |
 | [CSV Transpose](tools/csv-transpose/README.md) | Swap rows and columns in a rectangular CSV | Python 3.9+, no dependencies |
 | [JSON to JSONL](tools/json-to-jsonl/README.md) | Convert a JSON array into JSON Lines while retaining decimal values | Python 3.9+, no dependencies |

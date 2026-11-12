@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [CSV Unpivot](tools/csv-unpivot/README.md) | Turn non-key CSV columns into name/value rows | Python 3.9+, no dependencies |
 | [EOL Convert](tools/eol-convert/README.md) | Convert LF, CRLF, and CR line endings to a selected format | Python 3.9+, no dependencies |
 | [HTTP Headers Inspect](tools/http-headers-inspect/README.md) | Inventory raw HTTP header names, duplicate counts, and value lengths without printing values | Python 3.9+, no dependencies |
 | [CIDR Collapse](tools/cidr-collapse/README.md) | Combine overlapping and adjacent IPv4 and IPv6 networks | Python 3.9+, no dependencies |

@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [Byte Slice](tools/byte-slice/README.md) | Copy a byte range from a seekable file to binary stdout | Python 3.9+, no dependencies |
 | [SRT Shift](tools/srt-shift/README.md) | Shift numbered SRT subtitle cues by a signed millisecond offset | Python 3.9+, no dependencies |
 | [CSV Unpivot](tools/csv-unpivot/README.md) | Turn non-key CSV columns into name/value rows | Python 3.9+, no dependencies |
 | [EOL Convert](tools/eol-convert/README.md) | Convert LF, CRLF, and CR line endings to a selected format | Python 3.9+, no dependencies |

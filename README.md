@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [JSON Key Check](tools/json-key-check/README.md) | Report duplicate JSON object keys with their paths | Python 3.9+, no dependencies |
 | [CSV Fill Down](tools/csv-fill-down/README.md) | Carry values forward into empty cells in selected CSV columns | Python 3.9+, no dependencies |
 | [Query Encode](tools/query-encode/README.md) | Encode ordered name/value arguments as a form query string | Python 3.9+, no dependencies |
 | [Byte Slice](tools/byte-slice/README.md) | Copy a byte range from a seekable file to binary stdout | Python 3.9+, no dependencies |

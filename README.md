@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [Date Range](tools/date-range/README.md) | List inclusive ISO dates with an optional weekday filter | Python 3.9+, no dependencies |
 | [PNG Size](tools/png-size/README.md) | Read pixel dimensions and check the PNG IHDR checksum | Python 3.9+, no dependencies |
 | [CSV Stack](tools/csv-stack/README.md) | Append CSV rows and align columns by header name | Python 3.9+, no dependencies |
 | [Delimited Convert](tools/delimited-convert/README.md) | Convert quoted records between comma, tab, semicolon, and pipe delimiters | Python 3.9+, no dependencies |

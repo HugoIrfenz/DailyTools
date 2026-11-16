@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [CSV Stack](tools/csv-stack/README.md) | Append CSV rows and align columns by header name | Python 3.9+, no dependencies |
 | [Delimited Convert](tools/delimited-convert/README.md) | Convert quoted records between comma, tab, semicolon, and pipe delimiters | Python 3.9+, no dependencies |
 | [JSON Key Check](tools/json-key-check/README.md) | Report duplicate JSON object keys with their paths | Python 3.9+, no dependencies |
 | [CSV Fill Down](tools/csv-fill-down/README.md) | Carry values forward into empty cells in selected CSV columns | Python 3.9+, no dependencies |

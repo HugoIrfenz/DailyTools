@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [Color Contrast](tools/color-contrast/README.md) | Calculate the contrast ratio between two opaque sRGB colors | Python 3.9+, no dependencies |
 | [WAV Inspect](tools/wav-inspect/README.md) | Read PCM WAV metadata and duration as JSON | Python 3.9+, no dependencies |
 | [Date Range](tools/date-range/README.md) | List inclusive ISO dates with an optional weekday filter | Python 3.9+, no dependencies |
 | [PNG Size](tools/png-size/README.md) | Read pixel dimensions and check the PNG IHDR checksum | Python 3.9+, no dependencies |

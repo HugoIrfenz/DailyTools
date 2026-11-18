@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>builtbyhugo posts</title>
+    <link>https://x.com/builtbyhugo</link>
+    <description>Publishing feed for builtbyhugo.</description>
+    <item>
+      <title>Hey everyone, meow</title>
+      <description>Hey everyone, meow</description>
+      <link>https://x.com/builtbyhugo#test</link>
+      <guid isPermaLink="false">builtbyhugo-connection-test-2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 06:47:16 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

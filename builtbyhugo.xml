@@ -5,6 +5,13 @@
     <link>https://x.com/builtbyhugo</link>
     <description>Publishing feed for builtbyhugo.</description>
     <item>
+      <title>Dua worker Go ambil job dari tabel Postgres barengan. Pakai FOR UPDATE SKIP LOCKED buat claim, set status running, lalu commit sebelum manggil API. Simpan lease juga, biar job bisa diambil lagi kalau worker mati.</title>
+      <description>Dua worker Go ambil job dari tabel Postgres barengan. Pakai FOR UPDATE SKIP LOCKED buat claim, set status running, lalu commit sebelum manggil API. Simpan lease juga, biar job bisa diambil lagi kalau worker mati.</description>
+      <link>https://x.com/builtbyhugo?feed_date=2026-11-19</link>
+      <guid isPermaLink="false">builtbyhugo-2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 12:49:01 GMT</pubDate>
+    </item>
+    <item>
       <title>Hey everyone, meow</title>
       <description>Hey everyone, meow</description>
       <link>https://x.com/builtbyhugo#test</link>

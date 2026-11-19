@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [IP Sort](tools/ip-sort/README.md) | Sort and deduplicate IPv4 and IPv6 addresses numerically | Python 3.9+, no dependencies |
 | [HTML Entities](tools/html-entities/README.md) | Encode and decode HTML character references in UTF-8 text | Python 3.9+, no dependencies |
 | [Trailing Space Check](tools/trailing-space-check/README.md) | Report ASCII spaces and tabs at the ends of UTF-8 text lines | Python 3.9+, no dependencies |
 | [Color Contrast](tools/color-contrast/README.md) | Calculate the contrast ratio between two opaque sRGB colors | Python 3.9+, no dependencies |

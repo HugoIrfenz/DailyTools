@@ -5,6 +5,13 @@
     <link>https://x.com/builtbyhugo</link>
     <description>Publishing feed for builtbyhugo.</description>
     <item>
+      <title>Tool Go buat rekap log JSONL mulai makan RAM pas file tembus 5 GB. Parse per baris dan simpan counter aja. Kalau pakai bufio.Scanner, set batas panjang baris dan cek scanner.Err() biar hasil yang kepotong nggak dikira lengkap.</title>
+      <description>Tool Go buat rekap log JSONL mulai makan RAM pas file tembus 5 GB. Parse per baris dan simpan counter aja. Kalau pakai bufio.Scanner, set batas panjang baris dan cek scanner.Err() biar hasil yang kepotong nggak dikira lengkap.</description>
+      <link>https://x.com/builtbyhugo?feed_date=2026-11-20</link>
+      <guid isPermaLink="false">builtbyhugo-2026-11-20</guid>
+      <pubDate>Fri, 20 Nov 2026 12:26:38 GMT</pubDate>
+    </item>
+    <item>
       <title>Dua worker Go ambil job dari tabel Postgres barengan. Pakai FOR UPDATE SKIP LOCKED buat claim, set status running, lalu commit sebelum manggil API. Simpan lease juga, biar job bisa diambil lagi kalau worker mati.</title>
       <description>Dua worker Go ambil job dari tabel Postgres barengan. Pakai FOR UPDATE SKIP LOCKED buat claim, set status running, lalu commit sebelum manggil API. Simpan lease juga, biar job bisa diambil lagi kalau worker mati.</description>
       <link>https://x.com/builtbyhugo?feed_date=2026-11-19</link>

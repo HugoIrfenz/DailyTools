@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [JSON String Codec](tools/json-string-codec/README.md) | Encode text as one JSON string or decode a JSON string | Python 3.9+, no dependencies |
 | [Regex Extract](tools/regex-extract/README.md) | Extract regex matches, capture groups, and character offsets as JSON Lines | Python 3.9+, no dependencies |
 | [Text Count](tools/text-count/README.md) | Count UTF-8 bytes, Unicode code points, words, and logical lines | Python 3.9+, no dependencies |
 | [IP Sort](tools/ip-sort/README.md) | Sort and deduplicate IPv4 and IPv6 addresses numerically | Python 3.9+, no dependencies |

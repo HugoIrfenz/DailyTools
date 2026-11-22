@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [Shell Quote](tools/shell-quote/README.md) | Quote argument lists for POSIX shells | Python 3.9+, no dependencies |
 | [Number Stats](tools/number-stats/README.md) | Summarize finite decimal numbers with count, range, sum, and mean | Python 3.9+, no dependencies |
 | [JSON String Codec](tools/json-string-codec/README.md) | Encode text as one JSON string or decode a JSON string | Python 3.9+, no dependencies |
 | [Regex Extract](tools/regex-extract/README.md) | Extract regex matches, capture groups, and character offsets as JSON Lines | Python 3.9+, no dependencies |

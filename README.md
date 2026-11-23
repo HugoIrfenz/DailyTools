@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [Text Wrap](tools/text-wrap/README.md) | Reflow text paragraphs to a selected character width | Python 3.9+, no dependencies |
 | [Integer Base](tools/integer-base/README.md) | Convert signed integers between bases 2 through 36 | Python 3.9+, no dependencies |
 | [ROT13 Codec](tools/rot13-codec/README.md) | Apply ROT13 to ASCII letters in UTF-8 text | Python 3.9+, no dependencies |
 | [Shell Quote](tools/shell-quote/README.md) | Quote argument lists for POSIX shells | Python 3.9+, no dependencies |

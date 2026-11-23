@@ -5,6 +5,13 @@
     <link>https://x.com/builtbyhugo</link>
     <description>Publishing feed for builtbyhugo.</description>
     <item>
+      <title>Endpoint Go harus bales dalam 800 ms, tapi upstream kadang perlu retry. Pakai satu context deadline buat semua attempt, plus timeout per attempt yang lebih pendek. Sisain waktu buat nulis response sebelum deadline request.</title>
+      <description>Endpoint Go harus bales dalam 800 ms, tapi upstream kadang perlu retry. Pakai satu context deadline buat semua attempt, plus timeout per attempt yang lebih pendek. Sisain waktu buat nulis response sebelum deadline request.</description>
+      <link>https://x.com/builtbyhugo?feed_date=2026-11-23</link>
+      <guid isPermaLink="false">builtbyhugo-2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 12:55:36 GMT</pubDate>
+    </item>
+    <item>
       <title>User buka page 2 pas transaksi baru masuk. OFFSET bisa bikin row terakhir page 1 muncul lagi. Buat list newest-first di Postgres, pakai cursor (created_at, id) dari row terakhir. ID jadi tie-breaker kalau timestamp-nya sama.</title>
       <description>User buka page 2 pas transaksi baru masuk. OFFSET bisa bikin row terakhir page 1 muncul lagi. Buat list newest-first di Postgres, pakai cursor (created_at, id) dari row terakhir. ID jadi tie-breaker kalau timestamp-nya sama.</description>
       <link>https://x.com/builtbyhugo?feed_date=2026-11-22</link>

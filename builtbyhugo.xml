@@ -5,6 +5,13 @@
     <link>https://x.com/builtbyhugo</link>
     <description>Publishing feed for builtbyhugo.</description>
     <item>
+      <title>Endpoint nampilin 20 order beserta itemnya. Query item satu-satu bikin 21 round trip. Ambil page order dulu, lalu fetch semua item pakai WHERE order_id = ANY($1). LIMIT tetap ngitung order, jadi itemnya nggak kepotong.</title>
+      <description>Endpoint nampilin 20 order beserta itemnya. Query item satu-satu bikin 21 round trip. Ambil page order dulu, lalu fetch semua item pakai WHERE order_id = ANY($1). LIMIT tetap ngitung order, jadi itemnya nggak kepotong.</description>
+      <link>https://x.com/builtbyhugo?feed_date=2026-11-25</link>
+      <guid isPermaLink="false">builtbyhugo-2026-11-25</guid>
+      <pubDate>Wed, 25 Nov 2026 12:25:47 GMT</pubDate>
+    </item>
+    <item>
       <title>CLI mau rename 500 file, tapi dua file bisa dapet nama tujuan yang sama. Gua pilih cek bentrok di semua target saat dry run dan tetap larang overwrite pas apply. Isi folder bisa berubah setelah preview.</title>
       <description>CLI mau rename 500 file, tapi dua file bisa dapet nama tujuan yang sama. Gua pilih cek bentrok di semua target saat dry run dan tetap larang overwrite pas apply. Isi folder bisa berubah setelah preview.</description>
       <link>https://x.com/builtbyhugo?feed_date=2026-11-24</link>

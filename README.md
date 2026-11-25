@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [Decimal Round](tools/decimal-round/README.md) | Round decimal arguments with half-even or half-up rounding | Python 3.9+, no dependencies |
 | [Line Reverse](tools/line-reverse/README.md) | Reverse the order of logical UTF-8 text lines | Python 3.9+, no dependencies |
 | [Text Dedent](tools/text-dedent/README.md) | Remove common leading whitespace from UTF-8 text | Python 3.9+, no dependencies |
 | [Tab Expand](tools/tab-expand/README.md) | Expand tabs to spaces at fixed character-column stops | Python 3.9+, no dependencies |

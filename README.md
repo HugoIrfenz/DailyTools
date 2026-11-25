@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [Line Reverse](tools/line-reverse/README.md) | Reverse the order of logical UTF-8 text lines | Python 3.9+, no dependencies |
 | [Text Dedent](tools/text-dedent/README.md) | Remove common leading whitespace from UTF-8 text | Python 3.9+, no dependencies |
 | [Tab Expand](tools/tab-expand/README.md) | Expand tabs to spaces at fixed character-column stops | Python 3.9+, no dependencies |
 | [Line Number](tools/line-number/README.md) | Prefix logical UTF-8 text lines with consecutive numbers | Python 3.9+, no dependencies |

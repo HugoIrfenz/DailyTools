@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [CSV Rename](tools/csv-rename/README.md) | Rename CSV header columns with simultaneous name mappings | Python 3.9+, no dependencies |
 | [Decimal Round](tools/decimal-round/README.md) | Round decimal arguments with half-even or half-up rounding | Python 3.9+, no dependencies |
 | [Line Reverse](tools/line-reverse/README.md) | Reverse the order of logical UTF-8 text lines | Python 3.9+, no dependencies |
 | [Text Dedent](tools/text-dedent/README.md) | Remove common leading whitespace from UTF-8 text | Python 3.9+, no dependencies |

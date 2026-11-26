@@ -5,6 +5,13 @@
     <link>https://x.com/builtbyhugo</link>
     <description>Publishing feed for builtbyhugo.</description>
     <item>
+      <title>PATCH buat matiin notifikasi kirim false, tapi handler Go nganggep field-nya kosong. Pakai *bool biar field yang absen tetap nil dan false bisa disimpan. Kalau null punya arti sendiri, cek juga apakah field-nya dikirim.</title>
+      <description>PATCH buat matiin notifikasi kirim false, tapi handler Go nganggep field-nya kosong. Pakai *bool biar field yang absen tetap nil dan false bisa disimpan. Kalau null punya arti sendiri, cek juga apakah field-nya dikirim.</description>
+      <link>https://x.com/builtbyhugo?feed_date=2026-11-26</link>
+      <guid isPermaLink="false">builtbyhugo-2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 12:27:26 GMT</pubDate>
+    </item>
+    <item>
       <title>Endpoint nampilin 20 order beserta itemnya. Query item satu-satu bikin 21 round trip. Ambil page order dulu, lalu fetch semua item pakai WHERE order_id = ANY($1). LIMIT tetap ngitung order, jadi itemnya nggak kepotong.</title>
       <description>Endpoint nampilin 20 order beserta itemnya. Query item satu-satu bikin 21 round trip. Ambil page order dulu, lalu fetch semua item pakai WHERE order_id = ANY($1). LIMIT tetap ngitung order, jadi itemnya nggak kepotong.</description>
       <link>https://x.com/builtbyhugo?feed_date=2026-11-25</link>

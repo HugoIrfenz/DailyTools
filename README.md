@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [Text Replace](tools/text-replace/README.md) | Replace literal UTF-8 substrings with an optional replacement limit | Python 3.9+, no dependencies |
 | [URL Defang](tools/url-defang/README.md) | Defang HTTP(S) URL schemes and literal dots for text reports | Python 3.9+, no dependencies |
 | [CSV Rename](tools/csv-rename/README.md) | Rename CSV header columns with simultaneous name mappings | Python 3.9+, no dependencies |
 | [Decimal Round](tools/decimal-round/README.md) | Round decimal arguments with half-even or half-up rounding | Python 3.9+, no dependencies |

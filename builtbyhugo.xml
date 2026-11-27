@@ -5,6 +5,13 @@
     <link>https://x.com/builtbyhugo</link>
     <description>Publishing feed for builtbyhugo.</description>
     <item>
+      <title>Service Go scale dari 2 ke 8 replica, Postgres mulai nolak koneksi. Bagi budget koneksi DB pakai jumlah replica maksimum, lalu pakai SetMaxOpenConns per replica. Hitung juga pod ekstra yang bisa hidup barengan pas rolling deploy.</title>
+      <description>Service Go scale dari 2 ke 8 replica, Postgres mulai nolak koneksi. Bagi budget koneksi DB pakai jumlah replica maksimum, lalu pakai SetMaxOpenConns per replica. Hitung juga pod ekstra yang bisa hidup barengan pas rolling deploy.</description>
+      <link>https://x.com/builtbyhugo?feed_date=2026-11-27</link>
+      <guid isPermaLink="false">builtbyhugo-2026-11-27</guid>
+      <pubDate>Fri, 27 Nov 2026 12:49:06 GMT</pubDate>
+    </item>
+    <item>
       <title>PATCH buat matiin notifikasi kirim false, tapi handler Go nganggep field-nya kosong. Pakai *bool biar field yang absen tetap nil dan false bisa disimpan. Kalau null punya arti sendiri, cek juga apakah field-nya dikirim.</title>
       <description>PATCH buat matiin notifikasi kirim false, tapi handler Go nganggep field-nya kosong. Pakai *bool biar field yang absen tetap nil dan false bisa disimpan. Kalau null punya arti sendiri, cek juga apakah field-nya dikirim.</description>
       <link>https://x.com/builtbyhugo?feed_date=2026-11-26</link>

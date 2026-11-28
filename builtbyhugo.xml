@@ -5,6 +5,13 @@
     <link>https://x.com/builtbyhugo</link>
     <description>Publishing feed for builtbyhugo.</description>
     <item>
+      <title>Order jam 00.05 WIB malah masuk laporan kemarin. Hitung start dan end hari di Asia/Jakarta, convert ke UTC, lalu query created_at &gt;= start AND created_at &lt; end. Order tepat tengah malam cuma masuk satu laporan.</title>
+      <description>Order jam 00.05 WIB malah masuk laporan kemarin. Hitung start dan end hari di Asia/Jakarta, convert ke UTC, lalu query created_at &gt;= start AND created_at &lt; end. Order tepat tengah malam cuma masuk satu laporan.</description>
+      <link>https://x.com/builtbyhugo?feed_date=2026-11-28</link>
+      <guid isPermaLink="false">builtbyhugo-2026-11-28</guid>
+      <pubDate>Sat, 28 Nov 2026 12:41:49 GMT</pubDate>
+    </item>
+    <item>
       <title>Service Go scale dari 2 ke 8 replica, Postgres mulai nolak koneksi. Bagi budget koneksi DB pakai jumlah replica maksimum, lalu pakai SetMaxOpenConns per replica. Hitung juga pod ekstra yang bisa hidup barengan pas rolling deploy.</title>
       <description>Service Go scale dari 2 ke 8 replica, Postgres mulai nolak koneksi. Bagi budget koneksi DB pakai jumlah replica maksimum, lalu pakai SetMaxOpenConns per replica. Hitung juga pod ekstra yang bisa hidup barengan pas rolling deploy.</description>
       <link>https://x.com/builtbyhugo?feed_date=2026-11-27</link>

@@ -10,6 +10,7 @@ A growing collection of practical utilities by [Hugo Syarof](https://github.com/
 
 | Tool | What it does | Runtime |
 | --- | --- | --- |
+| [Text Indent](tools/text-indent/README.md) | Prefix logical text lines with optional blank-line skipping | Python 3.9+, no dependencies |
 | [Line Filter](tools/line-filter/README.md) | Keep or exclude lines containing a literal substring | Python 3.9+, no dependencies |
 | [CSV Head](tools/csv-head/README.md) | Print a CSV header and a selected number of data records | Python 3.9+, no dependencies |
 | [Text Replace](tools/text-replace/README.md) | Replace literal UTF-8 substrings with an optional replacement limit | Python 3.9+, no dependencies |
